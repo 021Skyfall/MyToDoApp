@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
     @GetMapping("/")
     public String mainPage() {
+        System.out.println("다시 변경");
         return "To-Do Application";
     }
 }
